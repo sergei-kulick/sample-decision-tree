@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-decision-tree", "sample-decision-tree\sample-decision-tree.csproj", "{B6550D99-7AA9-483B-A8FB-F198233AF3EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D34703F5-A2E5-4CF5-AB05-3F794314736E}"
+	ProjectSection(SolutionItems) = preProject
+		sample-decision-tree\db_init.sql = sample-decision-tree\db_init.sql
+		sample-decision-tree\docker-compose.yml = sample-decision-tree\docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6550D99-7AA9-483B-A8FB-F198233AF3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6550D99-7AA9-483B-A8FB-F198233AF3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6550D99-7AA9-483B-A8FB-F198233AF3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6550D99-7AA9-483B-A8FB-F198233AF3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFBBE876-0D2C-4432-9F26-8F98889681DF}
+	EndGlobalSection
+EndGlobal

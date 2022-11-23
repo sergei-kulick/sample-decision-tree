@@ -1,0 +1,19 @@
+version: '1.7'
+services:
+  db-container:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: db-container
+    environment:
+      ACCEPT_EULA: 'y'
+      MSSQL_SA_PASSWORD: 'tZnh4A0VO90%'
+      MSSQL_PID: 'Express'
+    ports:
+      - '1533:1433'
+    expose:
+      - '1433'
+  app-container:
+    build: 
+        context: .
+        dockerfile: ./Dockerfile
+    ports: 
+        - "8080:80"
